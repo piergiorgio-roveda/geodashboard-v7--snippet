@@ -1,0 +1,22 @@
+{
+    "name": "[GEO]DASHBOARD Login Form",
+    "short_name": "Login Form",
+    "description": "[GEO]DASHBOARD: Login Form Snippets.",
+    "start_url": "https://cityplanner.biz/geodashboard-v7/snippet/login/",
+    "display": "standalone",
+    "background_color": "#0d24ff",
+    "theme_color": "#0d24ff",
+    "scope": "/geodashboard-v7/snippet/login/",
+    "icons": [
+        {
+            "src": "https://cityplanner.biz/geodashboard-v7/snippet/_list/assets/images/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://cityplanner.biz/geodashboard-v7/snippet/_list/assets/images/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
