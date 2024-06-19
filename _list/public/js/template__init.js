@@ -28,7 +28,7 @@ export async function template__init(){
     });
 
     $('.btn__home').on('click', function(){
-      window.location.href = `${FLAT_DOMAIN}`;
+      window.location.href = `${DOMAIN_URL}`;
     });
 
     $(`.btn__main__toggle`).on('click', function(){
