@@ -24,11 +24,6 @@ html, body{
   align-items: center;
 }
 
-.b{
-  grid-area: b;
-  background-color: #0f0;
-}
-
 .sidebar__body{
   grid-area: sidebar__body;
   background-color: #00f;
@@ -50,26 +45,22 @@ html, body{
   padding:0.5rem;
 }
 
-.f{
-  grid-area: f;
-  background-color: #0ff;
-}
-
-.siderbar__open--btn{
+.siderbar__open--box{
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: 0;
+  left: 0;
   z-index: 1000;
   display: none;
+  padding:1rem;
 }
 
-.siderbar__close--btn{
+.siderbar__close--box{
   display: none;
 }
 
 /* Media query to hide .c and .e on mobile devices */
 @media (max-width: 768px) {
-  .sidebar__header, .c, .sidebar__footer {
+  .sidebar__header, .sidebar__body, .sidebar__footer {
     display: none;
   }
   .wrapper{

@@ -17,8 +17,8 @@ $(`.siderbar__open--btn`).click(function(){
   $(`.sidebar__header`).css({
     "display": "flex"
   });
-  $(`.siderbar__open--btn`).toggle();
-  $(`.siderbar__close--btn`).toggle();
+  $(`.siderbar__open--box`).toggle();
+  $(`.siderbar__close--box`).toggle();
 });
 
 $(`.siderbar__close--btn`).click(function(){
@@ -28,6 +28,6 @@ $(`.siderbar__close--btn`).click(function(){
   $(`.sidebar__header, .sidebar__body, .sidebar__footer`).css({
     "display": "none"
   });
-  $(`.siderbar__open--btn`).toggle();
-  $(`.siderbar__close--btn`).toggle();
+  $(`.siderbar__open--box`).toggle();
+  $(`.siderbar__close--box`).toggle();
 });

@@ -24,7 +24,7 @@
           src="https://geo-source.ams3.digitaloceanspaces.com/source/img/geodashboard_2024/logo-webapp-geodashboard-2024.png"
           alt="Logo" class="logo">
       </div>
-      <div style="padding: 1rem;">
+      <div class="siderbar__close--box" style="padding: 1rem;">
         <button class="btn btn-light siderbar__close--btn">
           <i class="bi bi-chevron-right"></i></button>
       </div>
@@ -48,8 +48,10 @@
       </div>
     </div>
     <div class="mainmap">
-      <button class="btn btn-light siderbar__open--btn">
-        <i class="bi bi-layout-sidebar-inset"></i></button>
+      <div class="siderbar__open--box">
+        <button class="btn btn-light siderbar__open--btn">
+          <i class="bi bi-layout-sidebar-inset"></i></button>
+      </div>
       <div id="mapid"></div>
     </div>
   </div>
