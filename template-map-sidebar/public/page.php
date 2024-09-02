@@ -17,7 +17,7 @@ $_page_attributes = array(
     <!-- META SEO -->
     <?php require("./public/page__meta_seo.php"); ?>
     <!-- FAVICONS -->
-    <?php require(FLAT_FOLDER__PUBLIC."page__favicon.php"); ?>
+    <?php require("./public/page__favicon.php"); ?>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.5.0/dist/maplibre-gl.css">
