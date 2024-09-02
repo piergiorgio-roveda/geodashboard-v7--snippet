@@ -11,9 +11,7 @@ define('G_SLUG', 'index');
 // IF ROOT
 // require('../../env.php');
 // IF SUBFOLDER
-require '../../../../env-v7.php';
-
-include('../../env-folder.php');
+require '../../settings.php';
 
 // echo "APP_VERSION: ".APP_VERSION;
 
