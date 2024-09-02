@@ -42,7 +42,7 @@ export async function widget__bottomright_expandible__init(){
           disabled>
           <i class="bi bi-balloon-heart"></i></button>
         <button class="bottomright__expand--btn btn btn-sm btn-light btn-sm-quad"><i class="bi bi-box-arrow-left"></i></button>
-        <button class="bottomright__copy btn btn btn-link" style="width:95px;">MapLibre</button>
+        <button class="bottomright__copy btn btn btn-link" style="width:102px;">MapLibre</button>
       </div>
     </div>
   `);
