@@ -9,14 +9,11 @@
     <!-- FAVICONS -->
     <?php require("./public/page__favicon.php"); ?>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.5.0/dist/maplibre-gl.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="public/css/template.css">
-    <link rel="stylesheet" href="public/css/map.css">
     <link rel="manifest" href="manifest.php">
+
+    <!-- CSS -->
+    <?php require("./public/index_css.php"); ?>
+
   </head>
 <body>
   <div class="wrapper">
