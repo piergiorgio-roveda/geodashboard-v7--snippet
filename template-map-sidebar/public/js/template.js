@@ -19,7 +19,7 @@ $(`.siderbar__open--btn`).click(function(){
   });
   $(`.siderbar__open--box`).toggle();
   $(`.siderbar__close--box`).toggle();
-  $(`.no-sidebar--box`).toggle();
+  $(`.no-sidebar--container`).toggle();
 });
 
 $(`.siderbar__close--btn`).click(function(){
