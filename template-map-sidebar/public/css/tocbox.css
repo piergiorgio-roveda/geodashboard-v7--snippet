@@ -26,17 +26,22 @@
 .tocbox__check{
   grid-area:check;
   text-align: left;
+  display:flex;
   align-items: center;
 }
 
 .tocbox__label{
   grid-area:label;
+  display:flex;
+  align-items: center;
 }
 
 .tocbox__expand{
   grid-area:expand;
   text-align: center;
   cursor:pointer;
+  display:flex;
+  align-items: center;
 }
 
 
