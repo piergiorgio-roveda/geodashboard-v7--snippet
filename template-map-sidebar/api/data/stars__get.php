@@ -70,8 +70,8 @@ function query__run1($ds){
 
   $query = "
     SELECT stars
-    FROM download_geodata
-    WHERE folder_slug = '".$ds["folder_slug"]."'
+    FROM ap5_project_manager
+    WHERE pid = '".$ds["project_pid"]."'
     ;";
     $tmpres = getResultSetArray($query,array());
   unset($query,$columnString,$placeHolders,$bind);

@@ -69,9 +69,9 @@ function query__run1($ds){
   $bind['val'] = array();
 
   $query = "
-    UPDATE download_geodata
+    UPDATE ap5_project_manager
     SET stars = stars + 1
-    WHERE folder_slug = '".$ds["folder_slug"]."'
+    WHERE pid = '".$ds["project_pid"]."'
     RETURNING pid
     ;";
     $tmpres = getResultSetArray($query,array());

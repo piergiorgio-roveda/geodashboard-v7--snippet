@@ -52,7 +52,7 @@ async function _axios(name){
     axios
       .post(_url, {
         name:name,
-        folder_slug: FOLDER_SLUG
+        project_pid: PROJECT_PID
       })
       .then((response) => {
 

@@ -19,4 +19,5 @@
   // const APP_VERSION='<?php // echo APP_VERSION;?>';
   // const PAGE_VERSION='<?php // echo $_page_attributes["page_version"];?>';
   // const FOLDER_SLUG='<?php // echo $_page_attributes["folder_slug"];?>';
+  const PROJECT_PID = 6;
 </script>
