@@ -1,3 +1,15 @@
 .hidden {
   display: none!important;
 }
+
+body {
+  --wd-base-color: #FFFBFF;
+  --wd-base-color-invert: #7B7768;
+  font-size: 13px;
+  overflow: hidden;
+  font-family: Play;
+}
+
+#mapid {
+  background-color: #F5F6FC;
+}
