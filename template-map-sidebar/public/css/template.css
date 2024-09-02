@@ -28,7 +28,6 @@ html, body{
   grid-area: sidebar__body;
   background-color: #fff;
   overflow: auto;
-  color:azure;
 }
 
 .mainmap{
