@@ -1,9 +1,5 @@
 <?php
-
-define('BUCKET', 'https://geo-source.ams3.digitaloceanspaces.com/');
 define('THUMB', BUCKET.'screenshoots/24-070809/banner-geodashboard.png');
-define('AUTHOR__NAME', 'Piergiorgio Roveda');
-define('WEBAPP__NAME', '[GEO]DASHBOARD');
 $_page_attributes = array(
   "page_lang"=>"en-US",
   "title_seo"=>"Template Map Sidebar",
