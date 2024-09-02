@@ -16,7 +16,7 @@
   <div class="sidebar__body">
     <?php
       // Loop to create 10 elements
-      for ($i = 1; $i <= 10; $i++) {
+      for ($i = 1; $i <= 50; $i++) {
         echo '
           <div class="tocbox" 
             geodata_output__pid="lyr_'.$i.'"
