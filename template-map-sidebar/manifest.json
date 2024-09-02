@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#3367D6",
     "description": "Template Map Sidebar.",
-    "scope": "/template-map-sidebar/",
+    "scope": "/geodashboard-v7/snippet/template-map-sidebar/",
     "theme_color": "#3367D6",
     "icons": [
         {
