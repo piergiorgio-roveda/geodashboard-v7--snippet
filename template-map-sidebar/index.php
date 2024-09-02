@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 'on');
 // ini_set('memory_limit', '200M');
 
-define('APP_VERSION', '7.0.0');
+// define('APP_VERSION', '7.0.0');
 define('ENVIRONMENT', 'development');
 define('MAIN_COLOR', '#0d24ff'); // BLUE
 
