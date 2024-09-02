@@ -47,7 +47,7 @@
       <a 
         href="<? echo $canonical;?>" 
         class="btn btn-light"><i class="bi bi-arrow-clockwise"></i></a>
-      <a class="btn btn-light" disabled><i class="bi bi-info-circle"></i></a>
+      <button type="button" class="btn btn-light" disabled><i class="bi bi-info-circle"></i></button>
     </div>
   </div>
   <div class="mainmap">
