@@ -3,7 +3,11 @@
 define('BUCKET', 'https://geo-source.ams3.digitaloceanspaces.com/');
 define('THUMB', BUCKET.'screenshoots/24-070809/banner-geodashboard.png');
 $_page_attributes = array(
+  "page_lang"=>"en-US",
   "title_seo"=>"Template Map Sidebar",
+  "g_description_short"=>"Template Map Sidebar",
+  "created_at"=>"2024-09-02T12:00:00+00:00",
+  "update_at"=>"2024-09-02T12:00:00+00:00",
 );
 ?>
 <!doctype html>
