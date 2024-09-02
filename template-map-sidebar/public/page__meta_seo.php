@@ -15,11 +15,11 @@
     ';
   }
   unset($_meta, $key, $value);
-  if(!empty($_GET["map"])){
-    $canonical = FLAT_URL.G_SLUG.'.php?map='.$_GET["map"];
-  }else{
-    $canonical = FLAT_URL.G_SLUG.'.php';
-  }
+  // if(!empty($_GET["map"])){
+  //   $canonical = FLAT_URL.G_SLUG.'.php?map='.$_GET["map"];
+  // }else{
+    $canonical = 'https://cityplanner.biz/geodashboard-v7/snippet/template-map-sidebar/index.php';
+  // }
   $_meta = array(
     array("property"=>"article:publisher", "content"=>AUTHOR__NAME),
     array("property"=>"article:modified_time", "content"=>$_page_attributes['update_at']),
