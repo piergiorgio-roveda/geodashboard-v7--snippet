@@ -24,7 +24,7 @@ export async function widget__vector_basemap_manager__init(){
       justify-content: space-between;
       background: white;
       ">
-      <div><b>CARTO.STREET<b></div>
+      <div><b>CARTO.STREET</b></div>
       <div class="vector_layer--close" \
         style="cursor:pointer;" \
         ><i class="bi bi-x-octagon-fill"></i></div>
