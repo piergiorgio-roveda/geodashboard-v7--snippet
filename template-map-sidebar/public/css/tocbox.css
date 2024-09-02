@@ -26,6 +26,7 @@
 .tocbox__check{
   grid-area:check;
   text-align: left;
+  align-items: center;
 }
 
 .tocbox__label{
