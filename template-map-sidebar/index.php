@@ -9,7 +9,7 @@ require '/mnt/volume_fra1_01/cityplanner.biz/wp-config-extends.php';
 
 // define('APP_VERSION', '7.0.0');
 define('ENVIRONMENT', 'development');
-define('MAIN_COLOR', '#0d24ff'); // BLUE
+// define('MAIN_COLOR', '#0d24ff'); // BLUE
 
 // require './env-folder.php';
 
