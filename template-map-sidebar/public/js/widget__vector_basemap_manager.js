@@ -50,8 +50,10 @@ function _prepare(){
 
   let _vector_layers = _mymap.getStyle().layers;
   console.log(_vector_layers);
+  let i = 0;
   _vector_layers.forEach(element => {
-
+    i++;
+    if(i > 10) return;
     let _background = `#fff`;
     if (typeof element.id !== 'undefined' && element.id.startsWith(`id-lyr`)) {
       _background = `darkseagreen`;
