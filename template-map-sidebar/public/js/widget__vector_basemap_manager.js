@@ -32,7 +32,7 @@ export async function widget__vector_basemap_manager__init(){
     <div class="vector_layers_container" style="\
       background-color: #ccc;
       width: 250px;
-      max-height: max-height: calc(100vh - 2rem - 32px - 1rem - 36px); /*400px;*/
+      max-height: calc(100vh - 2rem - 32px - 1rem - 36px); /*400px;*/
       overflow: auto;
       ">
     </div>
