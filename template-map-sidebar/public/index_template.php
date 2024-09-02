@@ -57,4 +57,10 @@
     </div>
     <div id="mapid"></div>
   </div>
-</div>
+  <div class="wrapper__topright_space">
+  </div>
+  <div class="wrapper__bottomright_space">
+  </div>
+  <div class="wrapper__bottomright_widget">
+  </div>
+</div><!-- /.wrapper -->

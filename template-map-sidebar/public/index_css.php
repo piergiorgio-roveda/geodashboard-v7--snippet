@@ -85,6 +85,11 @@ $_css = array(
   array(
     "rel"=>"stylesheet",
     "name"=>"project-css", 
+    "href"=>"public/css/widget.css"
+  ),
+  array(
+    "rel"=>"stylesheet",
+    "name"=>"project-css", 
     "href"=>"public/css/_style__custom.css"
   ),
   // array(
