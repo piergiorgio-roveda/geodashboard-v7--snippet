@@ -4,6 +4,9 @@ error_reporting(E_ALL);
 ini_set('display_errors', 'on');
 // ini_set('memory_limit', '200M');
 
+require '/mnt/volume_fra1_01/cityplanner.biz/env-h3hkngbjrg69bfje9sz8fm2u.php';
+require '/mnt/volume_fra1_01/cityplanner.biz/wp-config-extends.php';
+
 // define('APP_VERSION', '7.0.0');
 define('ENVIRONMENT', 'development');
 define('MAIN_COLOR', '#0d24ff'); // BLUE
@@ -20,7 +23,6 @@ define('TWITTER__CREATOR','@Null_Island_Geo');
 define('LINKEDIN__URL','https://www.linkedin.com/in/piergiorgioroveda-gis/');
 define('BUCKET', 'https://geo-source.ams3.digitaloceanspaces.com/');
 
-require '/mnt/volume_fra1_01/cityplanner.biz/env-h3hkngbjrg69bfje9sz8fm2u.php';
-require '/mnt/volume_fra1_01/cityplanner.biz/wp-config-extends.php';
+
 require './public/page.php';
 
