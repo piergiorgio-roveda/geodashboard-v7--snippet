@@ -7,6 +7,10 @@
   border-radius: 0px;
 }
 
+.btn-group {
+    border-radius: 0;
+}
+
 .btn-quad{
   height: 42px;
   width: 42px;

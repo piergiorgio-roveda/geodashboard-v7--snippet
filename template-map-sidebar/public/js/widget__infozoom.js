@@ -24,7 +24,7 @@ export async function widget__infozoom__init(){
       display: flex;
       gap: 0.5rem;
       padding: 0.2rem 0.5rem;
-      border-radius: 5px;
+      border-radius: 0px;
       justify-content: center;
       align-items: center;
       ">
