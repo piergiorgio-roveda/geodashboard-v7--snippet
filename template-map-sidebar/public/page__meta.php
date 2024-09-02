@@ -4,6 +4,7 @@
   $_meta = array(
     array("name"=>"viewport", "content"=>"width=device-width, initial-scale=1"),
     array("name"=>"apple-mobile-web-app-capable", "content"=>"yes"),
+    array("name"=>"mobile-web-app-capable", "content"=>"yes"), // Added new meta tag
     array("name"=>"apple-mobile-web-app-status-bar-style", "content"=>"black"),
     array("name"=>"google", "content"=>"notranslate"),
     array("name"=>"msapplication-TileColor", "content"=>MAIN_COLOR),
