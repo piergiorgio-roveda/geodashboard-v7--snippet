@@ -11,10 +11,13 @@ $_page_attributes = array(
 <!doctype html>
 <html lang="en-US">
   <head>
+
     <!-- META -->
     <?php require("./public/page__meta.php"); ?>
     <!-- META SEO -->
     <?php require("./public/page__meta_seo.php"); ?>
+    <!-- FAVICONS -->
+    <?php require(FLAT_FOLDER__PUBLIC."page__favicon.php"); ?>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.5.0/dist/maplibre-gl.css">
@@ -33,7 +36,7 @@ $_page_attributes = array(
         text-align: center;
         ">
         <img style="max-width: 256px;width: 100%;" 
-          src="https://geo-source.ams3.digitaloceanspaces.com/source/img/geodashboard_2024/logo-webapp-geodashboard-2024.png"
+          src="<?php echo BUCKET;?>source/img/geodashboard_2024/logo-webapp-geodashboard-2024.png"
           alt="Logo" class="logo">
       </div>
       <div class="siderbar__close--box" style="padding: 1rem;">
