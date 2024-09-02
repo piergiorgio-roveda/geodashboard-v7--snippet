@@ -57,11 +57,11 @@ $_css = array(
   //   "name"=>"project-css", 
   //   "href"=>FLAT_URL__PUBLIC."css/wrapper__grid.css"
   // ),
-  // array(
-  //   "rel"=>"stylesheet",
-  //   "name"=>"project-css", 
-  //   "href"=>FLAT_URL__PUBLIC."css/tocbox.css"
-  // ),
+  array(
+    "rel"=>"stylesheet",
+    "name"=>"project-tocbox-css", 
+    "href"=>"public/css/tocbox.css"
+  ),
   // array(
   //   "rel"=>"stylesheet",
   //   "name"=>"project-css", 
