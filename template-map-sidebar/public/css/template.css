@@ -26,9 +26,8 @@ html, body{
 
 .sidebar__body{
   grid-area: sidebar__body;
-  background-color: #00f;
+  background-color: #fff;
   overflow: auto;
-  padding:0.5rem;
   color:azure;
 }
 
