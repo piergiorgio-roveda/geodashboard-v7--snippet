@@ -26,9 +26,13 @@
   </div>
   <div class="sidebar__footer">
     <div class="btn-group" role="group" aria-label="Basic example" style="width: 100%;">
-      <button type="button" class="btn btn-light">Left</button>
-      <button type="button" class="btn btn-light">Middle</button>
-      <button type="button" class="btn btn-light">Right</button>
+      <a 
+        href="https://cityplanner.biz/" 
+        class="btn btn-light"><i class="bi bi-house"></i></a>
+      <a 
+        href="<? echo $canonical;?>" 
+        class="btn btn-light"><i class="bi bi-arrow-clockwise"></i></a>
+      <a class="btn btn-light" disabled><i class="bi bi-info-circle"></i></a>
     </div>
   </div>
   <div class="mainmap">
