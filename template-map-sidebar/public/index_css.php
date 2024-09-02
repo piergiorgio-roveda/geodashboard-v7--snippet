@@ -59,6 +59,11 @@ $_css = array(
   // ),
   array(
     "rel"=>"stylesheet",
+    "name"=>"project-css", 
+    "href"=>"public/css/_style.css"
+  ),
+  array(
+    "rel"=>"stylesheet",
     "name"=>"project-tocbox-css", 
     "href"=>"public/css/tocbox.css"
   ),
