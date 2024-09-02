@@ -1,5 +1,5 @@
 import { mapbox__init } from './mapbox__init.js';
-import { widget__bottomright_expandible__init } from './widget__bottomleft_expandible.js';
+import { widget__bottomright_expandible__init } from './widget__bottomright_expandible.js';
 
 
 function _init(){
