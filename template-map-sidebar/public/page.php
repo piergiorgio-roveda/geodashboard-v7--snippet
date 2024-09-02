@@ -1,13 +1,3 @@
-<?php
-define('THUMB', BUCKET.'screenshoots/24-070809/banner-geodashboard.png');
-$_page_attributes = array(
-  "page_lang"=>"en-US",
-  "title_seo"=>"Template Map Sidebar",
-  "g_description_short"=>"Template Map Sidebar",
-  "created_at"=>"2024-09-02T12:00:00+00:00",
-  "update_at"=>"2024-09-02T12:00:00+00:00",
-);
-?>
 <!doctype html>
 <html lang="en-US">
   <head>
@@ -26,7 +16,7 @@ $_page_attributes = array(
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="public/css/template.css">
     <link rel="stylesheet" href="public/css/map.css">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.php">
   </head>
 <body>
   <div class="wrapper">

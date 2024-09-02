@@ -1,5 +1,5 @@
 <meta charset="UTF-8">
-<title><?php echo $_page_attributes['title_seo'] ;?></title>
+<title><?php echo $_page_attributes['title'] ;?></title>
 <?php
   $_meta = array(
     array("name"=>"viewport", "content"=>"width=device-width, initial-scale=1"),
