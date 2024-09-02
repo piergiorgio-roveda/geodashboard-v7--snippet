@@ -32,7 +32,7 @@
             </div>
             <div class="tocbox__expand"  
               geodata_output__pid="lyr_'.$i.'" >
-              <i style="display:none;" class="bi bi-chevron-expand"></i>
+              <i class="bi bi-chevron-expand"></i>
             </div>
           </div>
         ';
